@@ -32,3 +32,43 @@ h1{
     padding: 1px 2px 1px 2px;
     border-radius: 15px;
 }
+
+.texto{
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.texto h2{
+    text-align: center;
+    color: black;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 90%;
+    background-color: transparent;
+    margin-top: 70px;
+    margin: 20px auto;
+}
+
+.contenedor .contenedor-caja{
+    width: 325px;
+    height: 425px;
+    background-color: rgb(138, 138, 138);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.contenedor-caja img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
