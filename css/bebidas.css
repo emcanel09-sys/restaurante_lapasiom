@@ -32,3 +32,36 @@ h1{
     padding: 1px 2px 1px 2px;
     border-radius: 15px;
 }
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 90%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+}
+.contenedor .contenedor-tarjetas{
+    width: 325px;
+    height: 425px;
+    background-color: rgb(168, 168, 255);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+img{
+    width: 13rem;
+    height: 18rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+p{
+    margin-top: 10px;
+    width: 100%;
+    height: 3%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--fuente-principal);
+}
