@@ -52,6 +52,14 @@ h1 {
 
 .tex{
     width: 300px;
+}
+input{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px white;
+}
+
+h3{
     height: 30px;
     padding: 10px;
     background-color: yellow;
@@ -66,7 +74,7 @@ h1 {
 }
 
 .contenedor2{
-    width: 100%;
+    width: 80%;
     height: 100%;
     grid-template-columns: repeat(3, 1fr);
     display: grid;
@@ -92,6 +100,9 @@ span{
     color: white;
 
 }
+
+
+
 
 
 .contenedor2 .contenedor-caja1 img{
@@ -122,13 +133,7 @@ span{
     color: black;
 }
 
-.contenedor-caja1 img:hover{
-    transform: scale(1.1);
-    transition: transform 1s ease;
-}
-
-.contenedor-caja1:hover{
-    transform: scale(1.1);
+.contenedor-caja1{
     transition: transform 1s ease;
 }
 
@@ -137,7 +142,7 @@ span{
        display: grid;
        margin-left: 40px;
        grid-template-columns: repeat(1, 1fr);
-
+    }
        .contenedor-caja1{
         width: 65%;
         height: 56vh;
@@ -161,8 +166,8 @@ span{
      transform: none;
      transition: none;
      }
-    }
 }
+
 .tex{
     width: 300px;
     height: 30px;
@@ -235,10 +240,11 @@ span{
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
         transition: transform 1s ease;
        }
-       .contenedor-caja1 img:hover{
-     transform: scale(1.1);
-     transition: transform 1s ease;
-     }
+
+.contenedor-caja1 img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
 
      .contenedor-caja1:hover{
     transition: transform 1s ease;
