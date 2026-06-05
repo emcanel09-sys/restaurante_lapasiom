@@ -50,6 +50,7 @@ h1{
     background-color: whitesmoke;
     margin: 0 auto;
 }
+
 @media(min-width:768px){
     .contenedor{
     display: grid;
@@ -62,7 +63,7 @@ h1{
 .contenedor .contenedor-tarjetas{
     width: 325px;
     height: 425px;
-    background-color: rgb(220, 220, 255);
+    background-color: rgb(205, 205, 255);
     margin-top: 10px;
     border-radius: 20px;
 }
@@ -93,6 +94,7 @@ p{
     text-align: center;
     margin: 0 auto;
 }
+
 
 .search input{
     border-radius: 15px;
