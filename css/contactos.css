@@ -6,6 +6,8 @@
 
 body{
     background-color: rgb(234, 241, 241);
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h1{
@@ -40,6 +42,7 @@ h1{
     width: 90%;
     height: 100vh;
     margin: 0 auto;
+     overflow: hidden;
 }
 .login{
     width: 35%;
@@ -154,6 +157,7 @@ a{
         display: grid;
         margin-left: 90px;
         grid-template-columns: repeat(1, 1fr) ;
+        overflow: hidden;
     
      .login{
      width: 85%;
@@ -161,6 +165,7 @@ a{
      background: blur(5px);
      border-radius: 25px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
      }
         .boton{
         margin-top: 30px;
