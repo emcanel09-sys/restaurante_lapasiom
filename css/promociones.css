@@ -35,7 +35,7 @@ h1{
 
 h3{
     height: 30px;
-    background-color: aqua;
+    background-color: yellow;
     color: white;
     text-align: center;
     border-radius: 10px;
@@ -57,12 +57,12 @@ h3{
 }
 
 .contenedor2 .contenedor-caja1{
-    background-color: orange;
+    background-color: rgb(218, 218, 218);
     width: 290px;
-    height: 380px;
+    height: 390px;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px  orangered;
+    box-shadow: 10px 10px 10px  gray;
 
 .search input{
     border-radius: 15px;
@@ -73,4 +73,25 @@ h3{
 span{
     color: white;
 
+}
+}
+
+.contenedor2 .contenedor-caja1 img{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.contenedor-caja1 p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 10px;
+}
+
+.contenedor-caja1 h4{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
 }
