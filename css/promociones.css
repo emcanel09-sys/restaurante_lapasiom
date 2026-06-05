@@ -33,6 +33,12 @@ h1{
     border-radius: 15px;
 }
 
+input{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px white;
+}
+
 h3{
     height: 30px;
     background-color: yellow;
@@ -48,7 +54,7 @@ h3{
 }
 
 .contenedor2{
-    width: 100%;
+    width: 80%;
     height: 100%;
     grid-template-columns: repeat(3, 1fr);
     display: grid;
@@ -64,16 +70,7 @@ h3{
     border-radius: 20px;
     box-shadow: 15px 15px 15px  gray;
 
-.search input{
-    border-radius: 15px;
-    border: none;
-    box-shadow: 1px 1px 2px white;
-}
 
-span{
-    color: white;
-
-}
 }
 
 .contenedor2 .contenedor-caja1 img{
@@ -104,13 +101,7 @@ span{
     color: black;
 }
 
-.contenedor-caja1 img:hover{
-    transform: scale(1.1);
-    transition: transform 1s ease;
-}
-
-.contenedor-caja1:hover{
-    transform: scale(1.1);
+.contenedor-caja1{
     transition: transform 1s ease;
 }
 
@@ -127,14 +118,6 @@ span{
         border-radius: 25px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
        }
-       .contenedor-caja1 img:hover{
-     transform: none;
-     transition: none
-     }
-     .contenedor-caja1:hover{
-    transform: none;
-    transition: none;
-}
     }
 }
 
@@ -160,6 +143,7 @@ span{
     transform: scale(1.1);
     transition: transform 1s ease;
 }
+       
     }
 }
 
@@ -176,7 +160,8 @@ span{
         border-radius: 25px;
         box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
        }
-       .contenedor-caja1 img:hover{
+
+.contenedor-caja1 img:hover{
     transform: scale(1.1);
     transition: transform 1s ease;
 }
