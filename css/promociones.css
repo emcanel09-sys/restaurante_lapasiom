@@ -36,7 +36,7 @@ h1{
 h3{
     height: 30px;
     background-color: yellow;
-    color: white;
+    color: gray;
     text-align: center;
     border-radius: 10px;
     margin-top: 20px;
@@ -59,10 +59,10 @@ h3{
 .contenedor2 .contenedor-caja1{
     background-color: rgb(218, 218, 218);
     width: 290px;
-    height: 390px;
+    height: 405px;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px  gray;
+    box-shadow: 15px 15px 15px  gray;
 
 .search input{
     border-radius: 15px;
@@ -79,19 +79,111 @@ span{
 .contenedor2 .contenedor-caja1 img{
     width: 200px;
     height: 200px;
+    border-radius: 10px;
     margin-top: 15px;
     margin-left: 40px;
 }
 
 .contenedor-caja1 p{
+    padding: 13px;
     font-size: 20px;
     color: gray;
     margin-left: 10px;
 }
 
 .contenedor-caja1 h4{
+    width: 45%;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
     font-size: 25px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 10px;
     color: black;
+}
+
+.contenedor-caja1 img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.contenedor-caja1:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+@media(min-width:390px){
+    .contenedor2{
+       display: grid;
+       margin-left: 40px;
+       grid-template-columns: repeat(1, 1fr);
+
+       .contenedor-caja1{
+        width: 85%;
+        height: 70vh;
+        background: blur(5px);
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+       }
+       .contenedor-caja1 img:hover{
+     transform: none;
+     transition: none
+     }
+     .contenedor-caja1:hover{
+    transform: none;
+    transition: none;
+}
+    }
+}
+
+@media(min-width:768px){
+    .contenedor2{
+       display: grid;
+       margin-left: 90px;
+       grid-template-columns: repeat(1, 1fr);
+
+       .contenedor-caja1{ 
+        width: 85%;
+        height: 55vh;
+        background: blur(5px);
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+       }
+       .contenedor-caja1 img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.contenedor-caja1:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+    }
+}
+
+@media(min-width:1200px){
+    .contenedor2{
+       display: grid;
+       margin-left: 170px;
+       grid-template-columns: repeat(1, 1fr);
+
+       .contenedor-caja1{
+        width: 85%;
+        height: 60vh;
+        background: blur(5px);
+        border-radius: 25px;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+       }
+       .contenedor-caja1 img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+.contenedor-caja1:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+    }
 }
