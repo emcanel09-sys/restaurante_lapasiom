@@ -92,6 +92,7 @@ a.link{
 
 }
 a{
+    margin-left: 20px;
     display: inline-block;
     font-size: 1.5rem;
     text-decoration: none;
@@ -112,7 +113,7 @@ a{
 
 /* estiilos de regresar */
 .back{
-    margin-top: 20px;
+    margin-top: 17px;
     background-color: rgb(83, 83, 128);
     color: white;
     padding: 6px;
@@ -184,8 +185,8 @@ a{
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
      }
         .boton{
-        margin-top: 30px;
-        margin-left: 400px;
+        margin-top: 10px;
+        margin-left: 480px;
      }
     }
 }
