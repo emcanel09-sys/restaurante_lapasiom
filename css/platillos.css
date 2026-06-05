@@ -60,8 +60,8 @@ h1{
 
 @media (max-width: 844px){
     .texto{
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
         background-color: yellow;
     }
     
@@ -80,6 +80,11 @@ h1{
     .contenedor{
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .contenedor-caja:hover{
+    transition: transform 1s ease;
+    transform: scale(1.05);
+}
 }
 .contenedor .contenedor-caja{
     width: 325px;
@@ -88,6 +93,8 @@ h1{
     margin-top: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px grey;
+    transition: transform 1s ease;
+    
 }
 
 .contenedor-caja img{
@@ -123,4 +130,9 @@ span{
     margin-left: 90px;
     margin-top: 30px;
     box-shadow: 10px 10px 10px grey;
+}
+
+.contenedor-caja button:hover{
+    background-color: rgb(255, 208, 0);
+    box-shadow: 10px 10px 10px black;
 }
